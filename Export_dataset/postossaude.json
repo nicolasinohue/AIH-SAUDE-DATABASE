@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "6726ad1ebbd55df79fc76794",
+    "nome": "Posto de Sa\u00fade Central",
+    "endereco": {
+      "rua": "Rua Fausto",
+      "numero": 452,
+      "bairro": "Moinho Velho",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "saudecentral@gmail.com" },
+      { "tipo": "telefone", "valor": "(11) 97898-1209" }
+    ],
+    "horario_funcionamento": {
+      "segunda_sexta": "08:00 - 18:00",
+      "sabado": "08:00 - 12:00",
+      "domingo": "Fechado"
+    },
+    "servicos": [
+      "Consulta m\u00e9dica",
+      "Vacina\u00e7\u00e3o",
+      "Exames laboratoriais"
+    ],
+    "especialidades_disponiveis": [
+      "Cl\u00ednica Geral",
+      "Cardiologia",
+      "Neurologia"
+    ],
+    "medicos": ["6726ac30bbd55df79fc7677f", "6726ac4dbbd55df79fc76780"]
+  },
+  {
+    "_id": "6726ad2dbbd55df79fc76795",
+    "nome": "UBS Santa Cruz",
+    "endereco": {
+      "rua": "R. Santa Cruz",
+      "numero": 1191,
+      "bairro": "Vila Mariana",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "ubssantacruz@gmail.com" },
+      { "tipo": "telefone", "valor": "(11) 98909-1432" }
+    ],
+    "horario_funcionamento": {
+      "segunda_sexta": "08:00 - 18:00",
+      "sabado": "08:00 - 12:00",
+      "domingo": "Fechado"
+    },
+    "servicos": [
+      "Consulta m\u00e9dica",
+      "Vacina\u00e7\u00e3o",
+      "Exames laboratoriais"
+    ],
+    "especialidades_disponiveis": [
+      "Cl\u00ednica Geral",
+      "Cardiologia",
+      "Neurologia"
+    ],
+    "medicos": ["6726ac30bbd55df79fc7677f", "6726ac4dbbd55df79fc76780"]
+  }
+]

@@ -1,0 +1,769 @@
+{
+  "consultas": [
+    {
+      "_id": "6726ac65bbd55df79fc76782",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "medico_id": "6726ac30bbd55df79fc7677f",
+      "data": "2024-10-30",
+      "horario": "14:00",
+      "procedimentos": ["6726ad63bbd55df79fc7679b", "6726ad70bbd55df79fc7679c"],
+      "exames": ["6726ac90bbd55df79fc76785"],
+      "motivo": "Consulta de rotina",
+      "observacoes": "Paciente relatou dor de cabe\u00e7a constante.",
+      "status": "Conclu\u00edda"
+    },
+    {
+      "_id": "6726ac76bbd55df79fc76783",
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "medico_id": "6726ac4dbbd55df79fc76780",
+      "data": "2024-11-12",
+      "horario": "12:00",
+      "procedimentos": ["6726ad7ebbd55df79fc7679d"],
+      "exames": ["6726aca5bbd55df79fc76786"],
+      "motivo": "Consulta de retorno",
+      "observacoes": "Paciente relatou dor na regi\u00e3o tor\u00e1xica.",
+      "status": "Conclu\u00edda"
+    },
+    {
+      "_id": "6726b201bbd55df79fc767e5",
+      "paciente_id": "6726ac0cbbd55df79fc7677d",
+      "medico_id": "6726ac4dbbd55df79fc76780",
+      "data": "2024-11-12",
+      "horario": "12:00",
+      "procedimentos": [{}],
+      "exames": [{}],
+      "motivo": "Consulta de rotina",
+      "observacoes": "Paciente relatou estar sentindo-se normal.",
+      "status": "Conclu\u00edda"
+    },
+    {
+      "_id": "6726b2f4bbd55df79fc767f2",
+      "paciente_id": "6726ac0cbbd55df79fc7677d",
+      "medico_id": "6726ac4dbbd55df79fc76780",
+      "data": "2024-11-12",
+      "horario": "12:00",
+      "procedimentos": [{}],
+      "exames": [{}],
+      "motivo": "Consulta de rotina",
+      "observacoes": "Paciente relatou estar sentindo-se normal.",
+      "status": "Conclu\u00edda"
+    }
+  ],
+  "exames": [
+    {
+      "_id": "6726ac90bbd55df79fc76785",
+      "tipo": "Hemograma completo",
+      "data_solicitacao": "2024-10-30",
+      "data_resultado": "2024-10-30",
+      "resultado": {
+        "hemoglobina": "13.5",
+        "hematocrito": "40%",
+        "leucocitos": "5.500/mm\u00b3",
+        "plaquetas": "200.000/mm\u00b3"
+      },
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "medico_id": "6726ac30bbd55df79fc7677f",
+      "observacoes": "Resultados dentro da normalidade",
+      "status": "Conclu\u00eddo"
+    },
+    {
+      "_id": "6726aca5bbd55df79fc76786",
+      "tipo": "Hemograma completo",
+      "data_solicitacao": "2024-11-12",
+      "data_resultado": "2024-11-12",
+      "resultado": {
+        "hemoglobina": "14.7",
+        "hematocrito": "41.6%",
+        "leucocitos": "5.750/mm\u00b3",
+        "plaquetas": "182.000/mm\u00b3"
+      },
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "medico_id": "6726ac4dbbd55df79fc76780",
+      "observacoes": "Resultados dentro da normalidade",
+      "status": "Conclu\u00eddo"
+    }
+  ],
+  "farmacias": [
+    {
+      "_id": "6726accbbbd55df79fc7678c",
+      "nome": "Farm\u00e1cia Popular",
+      "endereco": {
+        "rua": "Rua Central",
+        "numero": 100,
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "farmaciapopular@gmail.com" },
+        { "tipo": "telefone", "valor": "(11) 91111-2222" }
+      ],
+      "horario_funcionamento": {
+        "segunda_sexta": "08:00 - 20:00",
+        "sabado": "08:00 - 14:00",
+        "domingo": "Fechado"
+      },
+      "medicamentos": ["6726acf5bbd55df79fc7678f", "6726ad06bbd55df79fc76790"],
+      "servicos": [
+        "Aplica\u00e7\u00e3o de vacinas",
+        "Aferi\u00e7\u00e3o de press\u00e3o"
+      ]
+    },
+    {
+      "_id": "6726ace0bbd55df79fc7678d",
+      "nome": "Farm\u00e1cia Pague Menos",
+      "endereco": {
+        "rua": "Av Doutor Gentil de Moura",
+        "numero": 45,
+        "bairro": "Ipiranga",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "farmaciapaguemenos@gmail.com" },
+        { "tipo": "telefone", "valor": "(11) 93333-4444" }
+      ],
+      "horario_funcionamento": {
+        "segunda_sexta": "08:00 - 23:50",
+        "sabado": "08:00 - 20:00",
+        "domingo": "Fechado"
+      },
+      "medicamentos": ["6726acf5bbd55df79fc7678f", "6726ad06bbd55df79fc76790"],
+      "servicos": [
+        "Aplica\u00e7\u00e3o de vacinas",
+        "Aferi\u00e7\u00e3o de press\u00e3o"
+      ]
+    }
+  ],
+  "medicamentos": [
+    {
+      "_id": "6726acf5bbd55df79fc7678f",
+      "nome_comercial": "Paracetamol",
+      "principio_ativo": "Paracetamol",
+      "dosagem": "500mg",
+      "forma": "Comprimido",
+      "fabricante": "NeoQuimica",
+      "preco": 12,
+      "estoque": 50,
+      "farmacias": ["6726accbbbd55df79fc7678c", "6726ace0bbd55df79fc7678d"],
+      "indicacoes": ["Febre", "Dor leve a moderada"],
+      "contra_indicacoes": ["Hipersensibilidade ao paracetamol"]
+    },
+    {
+      "_id": "6726ad06bbd55df79fc76790",
+      "nome_comercial": "Dipirona",
+      "principio_ativo": "Dipirona Monoidratada",
+      "dosagem": "500mg",
+      "forma": "Comprimido",
+      "fabricante": "Medley",
+      "preco": 7.99,
+      "estoque": 90,
+      "farmacias": ["6726accbbbd55df79fc7678c", "6726ace0bbd55df79fc7678d"],
+      "indicacoes": ["Febre", "Dor leve a moderada"],
+      "contra_indicacoes": ["Hipersensibilidade ao Dipirona"]
+    }
+  ],
+  "medicos": [
+    {
+      "_id": "6726ac30bbd55df79fc7677f",
+      "nome": "Dra. Ana Souza",
+      "crm": "CRM-SP-98765",
+      "especialidades": ["Cardiologia", "Cl\u00ednica Geral"],
+      "postossaude": ["6726ad1ebbd55df79fc76794", "6726ad2dbbd55df79fc76795"],
+      "contatos": [
+        { "tipo": "email", "valor": "ana.souza@hospital.com" },
+        { "tipo": "telefone", "valor": "(11) 99876-5432" }
+      ],
+      "endereco": {
+        "rua": "Rua S\u00e3o Paulo",
+        "numero": 200,
+        "bairro": "Jardins",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "horarios_atendimento": [
+        { "dia": "segunda-feira", "horario": "08:00 - 12:00" },
+        { "dia": "quarta-feira", "horario": "13:00 - 17:00" }
+      ],
+      "status": "Ativo"
+    },
+    {
+      "_id": "6726ac4dbbd55df79fc76780",
+      "nome": "Dr. Mario Rodrigues",
+      "crm": "CRM-SP-98067",
+      "especialidades": ["Neurologista", "Cl\u00ednica Geral"],
+      "postossaude": ["6726ad1ebbd55df79fc76794", "6726ad2dbbd55df79fc76795"],
+      "contatos": [
+        { "tipo": "email", "valor": "mario.rodrigues@hospital.com" },
+        { "tipo": "telefone", "valor": "(11) 94325-1901" }
+      ],
+      "endereco": {
+        "rua": "Av paulista",
+        "numero": 2222,
+        "bairro": "Jardim Paulista",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "horarios_atendimento": [
+        { "dia": "quarta-feira", "horario": "08:00 - 12:00" },
+        { "dia": "quinta-feira", "horario": "10:00 - 20:00" }
+      ],
+      "status": "Ativo"
+    }
+  ],
+  "pacientes": [
+    {
+      "_id": "6726abcdbbd55df79fc7677b",
+      "nome": "Jo\u00e3o da Silva Junior",
+      "cpf": "12345678900",
+      "data_nascimento": "1980-05-22T00:00:00.000Z",
+      "sexo": "M",
+      "endereco": {
+        "rua": "Rua das Flores",
+        "numero": 123,
+        "bairro": "Jardim Paulista",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "joao@email.com" },
+        { "tipo": "telefone", "valor": "(11) 98765-4321" }
+      ],
+      "convenios": ["Unimed", "Bradesco Sa\u00fade"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_1",
+          "data": "2024-10-30T00:00:00.000Z",
+          "medico_id": "med_456"
+        },
+        {
+          "consulta_id": "consult_id_2",
+          "data": "2024-11-12T00:00:00.000Z",
+          "medico_id": "med_123"
+        }
+      ]
+    },
+    {
+      "_id": "6726abf9bbd55df79fc7677c",
+      "nome": "Maria do Carmo",
+      "cpf": "12445091200",
+      "data_nascimento": "1999-08-25T00:00:00",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Av Nazare",
+        "numero": 1232,
+        "bairro": "Ipiranga",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "maria@email.com" },
+        { "tipo": "telefone", "valor": "(11) 91235-4231" }
+      ],
+      "convenios": ["Amil", "NotreDame Intermedica"],
+      "historico_consultas": [
+        {
+          "consulta_id": "6726ac76bbd55df79fc76783",
+          "data": "2024-10-30T00:00:00",
+          "medico_id": "6726ac4dbbd55df79fc76780"
+        }
+      ]
+    },
+    {
+      "_id": "6726ac0cbbd55df79fc7677d",
+      "nome": "Maria Oliveira",
+      "cpf": "98765432100",
+      "data_nascimento": "1990-03-15T00:00:00",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Avenida das Am\u00e9ricas",
+        "numero": 456,
+        "bairro": "Centro",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "maria.oliveira@gmail.com" },
+        { "tipo": "telefone", "valor": "(21) 91234-5678" }
+      ],
+      "convenios": ["Amil", "SulAm\u00e9rica Sa\u00fade"],
+      "historico_consultas": [
+        {
+          "consulta_id": "6726b201bbd55df79fc767e5",
+          "data": "2024-09-15T00:00:00",
+          "medico_id": "6726ac4dbbd55df79fc76780"
+        },
+        {
+          "consulta_id": "6726b2f4bbd55df79fc767f2",
+          "data": "2024-10-20T00:00:00",
+          "medico_id": "6726ac4dbbd55df79fc76780"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc232a822314bab610bf",
+      "nome": "Ana Costa",
+      "cpf": "12345678901",
+      "data_nascimento": "1978-11-22T00:00:00.000Z",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Rua dos Pinheiros",
+        "numero": 890,
+        "bairro": "Pinheiros",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "ana.costa@gmail.com" },
+        { "tipo": "telefone", "valor": "(11) 91234-5678" }
+      ],
+      "convenios": ["Unimed", "Porto Seguro Sa\u00fade"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_6",
+          "data": "2024-05-12T00:00:00.000Z",
+          "medico_id": "med_456"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc472a822314bab610c0",
+      "nome": "Carlos Santos",
+      "cpf": "12345678902",
+      "data_nascimento": "1995-09-14T00:00:00.000Z",
+      "sexo": "M",
+      "endereco": {
+        "rua": "Rua Brasil",
+        "numero": 987,
+        "bairro": "Centro",
+        "cidade": "Porto Alegre",
+        "estado": "RS",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "carlos.santos@gmail.com" },
+        { "tipo": "telefone", "valor": "(51) 91234-5678" }
+      ],
+      "convenios": ["Interm\u00e9dica"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_7",
+          "data": "2024-08-30T00:00:00.000Z",
+          "medico_id": "med_123"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc562a822314bab610c1",
+      "nome": "Fernanda Almeida",
+      "cpf": "12345678903",
+      "data_nascimento": "1980-12-05T00:00:00.000Z",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Rua da Praia",
+        "numero": 300,
+        "bairro": "Centro",
+        "cidade": "Florian\u00f3polis",
+        "estado": "SC",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "fernanda.almeida@gmail.com" },
+        { "tipo": "telefone", "valor": "(48) 91234-5678" }
+      ],
+      "convenios": ["SulAm\u00e9rica Sa\u00fade"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_8",
+          "data": "2024-06-10T00:00:00.000Z",
+          "medico_id": "med_789"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc692a822314bab610c2",
+      "nome": "Pedro Martins",
+      "cpf": "12345678904",
+      "data_nascimento": "1993-01-25T00:00:00.000Z",
+      "sexo": "M",
+      "endereco": {
+        "rua": "Rua do Com\u00e9rcio",
+        "numero": 123,
+        "bairro": "Vila Nova",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "pedro.martins@gmail.com" },
+        { "tipo": "telefone", "valor": "(31) 91234-5678" }
+      ],
+      "convenios": ["Golden Cross"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_9",
+          "data": "2024-08-10T00:00:00.000Z",
+          "medico_id": "med_456"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc7b2a822314bab610c3",
+      "nome": "Beatriz Rocha",
+      "cpf": "12345678905",
+      "data_nascimento": "1975-04-18T00:00:00.000Z",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Rua das Palmeiras",
+        "numero": 78,
+        "bairro": "Jardim",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "beatriz.rocha@gmail.com" },
+        { "tipo": "telefone", "valor": "(71) 91234-5678" }
+      ],
+      "convenios": ["Amil"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_10",
+          "data": "2024-04-22T00:00:00.000Z",
+          "medico_id": "med_123"
+        }
+      ]
+    },
+    {
+      "_id": "6726bc9d2a822314bab610c4",
+      "nome": "Sofia Lima",
+      "cpf": "12345678907",
+      "data_nascimento": "1997-02-14T00:00:00.000Z",
+      "sexo": "F",
+      "endereco": {
+        "rua": "Rua das Flores",
+        "numero": 234,
+        "bairro": "Centro",
+        "cidade": "Fortaleza",
+        "estado": "CE",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "sofia.lima@gmail.com" },
+        { "tipo": "telefone", "valor": "(85) 91234-5678" }
+      ],
+      "convenios": ["Porto Seguro Sa\u00fade"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_12",
+          "data": "2024-06-18T00:00:00.000Z",
+          "medico_id": "med_456"
+        }
+      ]
+    },
+    {
+      "_id": "6726bcb72a822314bab610c6",
+      "nome": "Gabriel Costa",
+      "cpf": "12345678906",
+      "data_nascimento": "1988-07-12T00:00:00.000Z",
+      "sexo": "M",
+      "endereco": {
+        "rua": "Avenida Central",
+        "numero": 245,
+        "bairro": "Centro",
+        "cidade": "Recife",
+        "estado": "PE",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "gabriel.costa@gmail.com" },
+        { "tipo": "telefone", "valor": "(81) 91234-5678" }
+      ],
+      "convenios": ["Unimed"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_11",
+          "data": "2024-07-15T00:00:00.000Z",
+          "medico_id": "med_789"
+        }
+      ]
+    },
+    {
+      "_id": "6726d4e2848acca2a549c6aa",
+      "nome": "Lucas Moura",
+      "cpf": "12345678908",
+      "data_nascimento": "1986-05-20T00:00:00.000Z",
+      "sexo": "M",
+      "endereco": {
+        "rua": "Rua Verde",
+        "numero": 543,
+        "bairro": "Caminho das \u00c1rvores",
+        "cidade": "Salvador",
+        "estado": "BA",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "lucas.moura@gmail.com" },
+        { "tipo": "telefone", "valor": "(71) 92345-6789" }
+      ],
+      "convenios": ["Cassi"],
+      "historico_consultas": [
+        {
+          "consulta_id": "consult_id_13",
+          "data": "2024-05-22T00:00:00.000Z",
+          "medico_id": "med_123"
+        }
+      ]
+    }
+  ],
+  "postossaude": [
+    {
+      "_id": "6726ad1ebbd55df79fc76794",
+      "nome": "Posto de Sa\u00fade Central",
+      "endereco": {
+        "rua": "Rua Fausto",
+        "numero": 452,
+        "bairro": "Moinho Velho",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "saudecentral@gmail.com" },
+        { "tipo": "telefone", "valor": "(11) 97898-1209" }
+      ],
+      "horario_funcionamento": {
+        "segunda_sexta": "08:00 - 18:00",
+        "sabado": "08:00 - 12:00",
+        "domingo": "Fechado"
+      },
+      "servicos": [
+        "Consulta m\u00e9dica",
+        "Vacina\u00e7\u00e3o",
+        "Exames laboratoriais"
+      ],
+      "especialidades_disponiveis": [
+        "Cl\u00ednica Geral",
+        "Cardiologia",
+        "Neurologia"
+      ],
+      "medicos": ["6726ac30bbd55df79fc7677f", "6726ac4dbbd55df79fc76780"]
+    },
+    {
+      "_id": "6726ad2dbbd55df79fc76795",
+      "nome": "UBS Santa Cruz",
+      "endereco": {
+        "rua": "R. Santa Cruz",
+        "numero": 1191,
+        "bairro": "Vila Mariana",
+        "cidade": "S\u00e3o Paulo",
+        "estado": "SP",
+        "pais": "Brasil"
+      },
+      "contatos": [
+        { "tipo": "email", "valor": "ubssantacruz@gmail.com" },
+        { "tipo": "telefone", "valor": "(11) 98909-1432" }
+      ],
+      "horario_funcionamento": {
+        "segunda_sexta": "08:00 - 18:00",
+        "sabado": "08:00 - 12:00",
+        "domingo": "Fechado"
+      },
+      "servicos": [
+        "Consulta m\u00e9dica",
+        "Vacina\u00e7\u00e3o",
+        "Exames laboratoriais"
+      ],
+      "especialidades_disponiveis": [
+        "Cl\u00ednica Geral",
+        "Cardiologia",
+        "Neurologia"
+      ],
+      "medicos": ["6726ac30bbd55df79fc7677f", "6726ac4dbbd55df79fc76780"]
+    }
+  ],
+  "prescricao": [
+    {
+      "_id": "6726ad4fbbd55df79fc76799",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "medico_id": "6726ac30bbd55df79fc7677f",
+      "data": "2024-10-30",
+      "medicamentos": [
+        {
+          "id": "6726acf5bbd55df79fc7678f",
+          "dosagem": "500mg",
+          "frequencia": "8 em 8 horas"
+        },
+        {
+          "id": "6726ad06bbd55df79fc76790",
+          "dosagem": "10mg",
+          "frequencia": "1 vez ao dia"
+        }
+      ],
+      "observacoes": "Manter acompanhamento m\u00e9dico caso sintomas persistam",
+      "status": "Em uso"
+    }
+  ],
+  "procedimentos": [
+    {
+      "_id": "6726ad63bbd55df79fc7679b",
+      "descricao": "Ecocardiograma",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "medico_id": "6726ac30bbd55df79fc7677f",
+      "data": "2024-10-30",
+      "local_realizacao": "Laboratorio Lavosier",
+      "resultado": "Sem altera\u00e7\u00f5es significativas",
+      "observacoes": "Nenhuma observa\u00e7\u00e3o adicional",
+      "status": "Conclu\u00eddo"
+    },
+    {
+      "_id": "6726ad70bbd55df79fc7679c",
+      "descricao": "Eletrocardiograma",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "medico_id": "6726ac30bbd55df79fc7677f",
+      "data": "2024-10-30",
+      "local_realizacao": "H.Core",
+      "resultado": "Sem altera\u00e7\u00f5es significativas",
+      "observacoes": "Agendar retorno com especialista",
+      "status": "Conclu\u00eddo"
+    },
+    {
+      "_id": "6726ad7ebbd55df79fc7679d",
+      "descricao": "Raio-X de t\u00f3rax",
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "medico_id": "6726ac4dbbd55df79fc76780",
+      "data": "2024-11-12",
+      "local_realizacao": "Laboratorio Fleury",
+      "resultado": "Raio-X Normal",
+      "observacoes": "Nenhuma observa\u00e7\u00e3o adicional",
+      "status": "Conclu\u00eddo"
+    }
+  ],
+  "transacoesfinanceiras": [
+    {
+      "_id": "6726ad96bbd55df79fc7679f",
+      "descricao": "Ecocardiograma",
+      "valor": 200,
+      "data": "2024-10-30",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "procedimento_id": "proc_1",
+      "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "numero_cartao": "**** **** **** 1234",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_expiracao": "12/26"
+      },
+      "nota_fiscal": "NF-123456",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726adabbbd55df79fc767a0",
+      "descricao": "Eletrocardiograma",
+      "valor": 150,
+      "data": "2024-10-30",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "procedimento_id": "proc_2",
+      "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "numero_cartao": "**** **** **** 1234",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_expiracao": "12/26"
+      },
+      "nota_fiscal": "NF-123457",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726adbabbd55df79fc767a1",
+      "descricao": "Exame Hemograma",
+      "valor": 75,
+      "data": "2024-10-30",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "exame_id": "exam_1",
+      "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "numero_cartao": "**** **** **** 1234",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_expiracao": "12/26"
+      },
+      "nota_fiscal": "NF-123458",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726adccbbd55df79fc767a2",
+      "descricao": "Consulta Cl\u00ednica",
+      "valor": 100,
+      "data": "2024-10-30",
+      "paciente_id": "6726abcdbbd55df79fc7677b",
+      "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "numero_cartao": "**** **** **** 1234",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_expiracao": "12/26"
+      },
+      "nota_fiscal": "NF-123459",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726ade4bbd55df79fc767a3",
+      "descricao": "Raio-X de t\u00f3rax",
+      "valor": 100,
+      "data": "2024-11-12",
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "procedimento_id": "proc_3",
+      "forma_pagamento": "Pix",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "chave_pix": "1234dsad1234asdas323123f1asdasdasdadsvsvdsd23364fdsf",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_envio": "12/11"
+      },
+      "nota_fiscal": "NF-1234510",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726adf4bbd55df79fc767a4",
+      "descricao": "Exame Hemograma",
+      "valor": 75,
+      "data": "2024-11-12",
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "exame_id": "exam_2",
+      "forma_pagamento": "Pix",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "chave_pix": "1234dsad1233f1asdasdasdasdasdadaddsvsvdsd23364fdsf",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_envio": "12/11"
+      },
+      "nota_fiscal": "NF-1234511",
+      "observacoes": "Pagamento realizado com sucesso"
+    },
+    {
+      "_id": "6726ae03bbd55df79fc767a5",
+      "descricao": "Consulta Cl\u00ednica",
+      "valor": 100,
+      "data": "2024-11-12",
+      "paciente_id": "6726abf9bbd55df79fc7677c",
+      "forma_pagamento": "Pix",
+      "status": "Pago",
+      "detalhes_pagamento": {
+        "chave_pix": "1234dsad1234asdas323123f1asdadnasldkndlak98sf",
+        "nome_titular": "Jo\u00e3o da Silva",
+        "data_envio": "12/11"
+      },
+      "nota_fiscal": "NF-1234512",
+      "observacoes": "Pagamento realizado com sucesso"
+    }
+  ]
+}

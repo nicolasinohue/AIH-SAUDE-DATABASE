@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "6726ac90bbd55df79fc76785",
+    "tipo": "Hemograma completo",
+    "data_solicitacao": "2024-10-30",
+    "data_resultado": "2024-10-30",
+    "resultado": {
+      "hemoglobina": "13.5",
+      "hematocrito": "40%",
+      "leucocitos": "5.500/mm\u00b3",
+      "plaquetas": "200.000/mm\u00b3"
+    },
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "medico_id": "6726ac30bbd55df79fc7677f",
+    "observacoes": "Resultados dentro da normalidade",
+    "status": "Conclu\u00eddo"
+  },
+  {
+    "_id": "6726aca5bbd55df79fc76786",
+    "tipo": "Hemograma completo",
+    "data_solicitacao": "2024-11-12",
+    "data_resultado": "2024-11-12",
+    "resultado": {
+      "hemoglobina": "14.7",
+      "hematocrito": "41.6%",
+      "leucocitos": "5.750/mm\u00b3",
+      "plaquetas": "182.000/mm\u00b3"
+    },
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "medico_id": "6726ac4dbbd55df79fc76780",
+    "observacoes": "Resultados dentro da normalidade",
+    "status": "Conclu\u00eddo"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "6726acf5bbd55df79fc7678f",
+    "nome_comercial": "Paracetamol",
+    "principio_ativo": "Paracetamol",
+    "dosagem": "500mg",
+    "forma": "Comprimido",
+    "fabricante": "NeoQuimica",
+    "preco": 12,
+    "estoque": 50,
+    "farmacias": ["6726accbbbd55df79fc7678c", "6726ace0bbd55df79fc7678d"],
+    "indicacoes": ["Febre", "Dor leve a moderada"],
+    "contra_indicacoes": ["Hipersensibilidade ao paracetamol"]
+  },
+  {
+    "_id": "6726ad06bbd55df79fc76790",
+    "nome_comercial": "Dipirona",
+    "principio_ativo": "Dipirona Monoidratada",
+    "dosagem": "500mg",
+    "forma": "Comprimido",
+    "fabricante": "Medley",
+    "preco": 7.99,
+    "estoque": 90,
+    "farmacias": ["6726accbbbd55df79fc7678c", "6726ace0bbd55df79fc7678d"],
+    "indicacoes": ["Febre", "Dor leve a moderada"],
+    "contra_indicacoes": ["Hipersensibilidade ao Dipirona"]
+  }
+]

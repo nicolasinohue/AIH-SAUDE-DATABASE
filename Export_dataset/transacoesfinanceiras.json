@@ -1,0 +1,119 @@
+[
+  {
+    "_id": "6726ad96bbd55df79fc7679f",
+    "descricao": "Ecocardiograma",
+    "valor": 200,
+    "data": "2024-10-30",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "procedimento_id": "proc_1",
+    "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "numero_cartao": "**** **** **** 1234",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_expiracao": "12/26"
+    },
+    "nota_fiscal": "NF-123456",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726adabbbd55df79fc767a0",
+    "descricao": "Eletrocardiograma",
+    "valor": 150,
+    "data": "2024-10-30",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "procedimento_id": "proc_2",
+    "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "numero_cartao": "**** **** **** 1234",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_expiracao": "12/26"
+    },
+    "nota_fiscal": "NF-123457",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726adbabbd55df79fc767a1",
+    "descricao": "Exame Hemograma",
+    "valor": 75,
+    "data": "2024-10-30",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "exame_id": "exam_1",
+    "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "numero_cartao": "**** **** **** 1234",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_expiracao": "12/26"
+    },
+    "nota_fiscal": "NF-123458",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726adccbbd55df79fc767a2",
+    "descricao": "Consulta Cl\u00ednica",
+    "valor": 100,
+    "data": "2024-10-30",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "forma_pagamento": "Cart\u00e3o de Cr\u00e9dito",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "numero_cartao": "**** **** **** 1234",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_expiracao": "12/26"
+    },
+    "nota_fiscal": "NF-123459",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726ade4bbd55df79fc767a3",
+    "descricao": "Raio-X de t\u00f3rax",
+    "valor": 100,
+    "data": "2024-11-12",
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "procedimento_id": "proc_3",
+    "forma_pagamento": "Pix",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "chave_pix": "1234dsad1234asdas323123f1asdasdasdadsvsvdsd23364fdsf",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_envio": "12/11"
+    },
+    "nota_fiscal": "NF-1234510",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726adf4bbd55df79fc767a4",
+    "descricao": "Exame Hemograma",
+    "valor": 75,
+    "data": "2024-11-12",
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "exame_id": "exam_2",
+    "forma_pagamento": "Pix",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "chave_pix": "1234dsad1233f1asdasdasdasdasdadaddsvsvdsd23364fdsf",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_envio": "12/11"
+    },
+    "nota_fiscal": "NF-1234511",
+    "observacoes": "Pagamento realizado com sucesso"
+  },
+  {
+    "_id": "6726ae03bbd55df79fc767a5",
+    "descricao": "Consulta Cl\u00ednica",
+    "valor": 100,
+    "data": "2024-11-12",
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "forma_pagamento": "Pix",
+    "status": "Pago",
+    "detalhes_pagamento": {
+      "chave_pix": "1234dsad1234asdas323123f1asdadnasldkndlak98sf",
+      "nome_titular": "Jo\u00e3o da Silva",
+      "data_envio": "12/11"
+    },
+    "nota_fiscal": "NF-1234512",
+    "observacoes": "Pagamento realizado com sucesso"
+  }
+]

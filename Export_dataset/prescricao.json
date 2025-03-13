@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "6726ad4fbbd55df79fc76799",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "medico_id": "6726ac30bbd55df79fc7677f",
+    "data": "2024-10-30",
+    "medicamentos": [
+      {
+        "id": "6726acf5bbd55df79fc7678f",
+        "dosagem": "500mg",
+        "frequencia": "8 em 8 horas"
+      },
+      {
+        "id": "6726ad06bbd55df79fc76790",
+        "dosagem": "10mg",
+        "frequencia": "1 vez ao dia"
+      }
+    ],
+    "observacoes": "Manter acompanhamento m\u00e9dico caso sintomas persistam",
+    "status": "Em uso"
+  }
+]

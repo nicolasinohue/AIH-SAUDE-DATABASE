@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "6726ac65bbd55df79fc76782",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "medico_id": "6726ac30bbd55df79fc7677f",
+    "data": "2024-10-30",
+    "horario": "14:00",
+    "procedimentos": ["6726ad63bbd55df79fc7679b", "6726ad70bbd55df79fc7679c"],
+    "exames": ["6726ac90bbd55df79fc76785"],
+    "motivo": "Consulta de rotina",
+    "observacoes": "Paciente relatou dor de cabe\u00e7a constante.",
+    "status": "Conclu\u00edda"
+  },
+  {
+    "_id": "6726ac76bbd55df79fc76783",
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "medico_id": "6726ac4dbbd55df79fc76780",
+    "data": "2024-11-12",
+    "horario": "12:00",
+    "procedimentos": ["6726ad7ebbd55df79fc7679d"],
+    "exames": ["6726aca5bbd55df79fc76786"],
+    "motivo": "Consulta de retorno",
+    "observacoes": "Paciente relatou dor na regi\u00e3o tor\u00e1xica.",
+    "status": "Conclu\u00edda"
+  },
+  {
+    "_id": "6726b201bbd55df79fc767e5",
+    "paciente_id": "6726ac0cbbd55df79fc7677d",
+    "medico_id": "6726ac4dbbd55df79fc76780",
+    "data": "2024-11-12",
+    "horario": "12:00",
+    "procedimentos": [{}],
+    "exames": [{}],
+    "motivo": "Consulta de rotina",
+    "observacoes": "Paciente relatou estar sentindo-se normal.",
+    "status": "Conclu\u00edda"
+  },
+  {
+    "_id": "6726b2f4bbd55df79fc767f2",
+    "paciente_id": "6726ac0cbbd55df79fc7677d",
+    "medico_id": "6726ac4dbbd55df79fc76780",
+    "data": "2024-11-12",
+    "horario": "12:00",
+    "procedimentos": [{}],
+    "exames": [{}],
+    "motivo": "Consulta de rotina",
+    "observacoes": "Paciente relatou estar sentindo-se normal.",
+    "status": "Conclu\u00edda"
+  }
+]

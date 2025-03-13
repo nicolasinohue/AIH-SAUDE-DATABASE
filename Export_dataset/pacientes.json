@@ -1,0 +1,309 @@
+[
+  {
+    "_id": "6726abcdbbd55df79fc7677b",
+    "nome": "Jo\u00e3o da Silva Junior",
+    "cpf": "12345678900",
+    "data_nascimento": "1980-05-22T00:00:00.000Z",
+    "sexo": "M",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "numero": 123,
+      "bairro": "Jardim Paulista",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "joao@email.com" },
+      { "tipo": "telefone", "valor": "(11) 98765-4321" }
+    ],
+    "convenios": ["Unimed", "Bradesco Sa\u00fade"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_1",
+        "data": "2024-10-30T00:00:00.000Z",
+        "medico_id": "med_456"
+      },
+      {
+        "consulta_id": "consult_id_2",
+        "data": "2024-11-12T00:00:00.000Z",
+        "medico_id": "med_123"
+      }
+    ]
+  },
+  {
+    "_id": "6726abf9bbd55df79fc7677c",
+    "nome": "Maria do Carmo",
+    "cpf": "12445091200",
+    "data_nascimento": "1999-08-25T00:00:00",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Av Nazare",
+      "numero": 1232,
+      "bairro": "Ipiranga",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "maria@email.com" },
+      { "tipo": "telefone", "valor": "(11) 91235-4231" }
+    ],
+    "convenios": ["Amil", "NotreDame Intermedica"],
+    "historico_consultas": [
+      {
+        "consulta_id": "6726ac76bbd55df79fc76783",
+        "data": "2024-10-30T00:00:00",
+        "medico_id": "6726ac4dbbd55df79fc76780"
+      }
+    ]
+  },
+  {
+    "_id": "6726ac0cbbd55df79fc7677d",
+    "nome": "Maria Oliveira",
+    "cpf": "98765432100",
+    "data_nascimento": "1990-03-15T00:00:00",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Avenida das Am\u00e9ricas",
+      "numero": 456,
+      "bairro": "Centro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "maria.oliveira@gmail.com" },
+      { "tipo": "telefone", "valor": "(21) 91234-5678" }
+    ],
+    "convenios": ["Amil", "SulAm\u00e9rica Sa\u00fade"],
+    "historico_consultas": [
+      {
+        "consulta_id": "6726b201bbd55df79fc767e5",
+        "data": "2024-09-15T00:00:00",
+        "medico_id": "6726ac4dbbd55df79fc76780"
+      },
+      {
+        "consulta_id": "6726b2f4bbd55df79fc767f2",
+        "data": "2024-10-20T00:00:00",
+        "medico_id": "6726ac4dbbd55df79fc76780"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc232a822314bab610bf",
+    "nome": "Ana Costa",
+    "cpf": "12345678901",
+    "data_nascimento": "1978-11-22T00:00:00.000Z",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Rua dos Pinheiros",
+      "numero": 890,
+      "bairro": "Pinheiros",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "ana.costa@gmail.com" },
+      { "tipo": "telefone", "valor": "(11) 91234-5678" }
+    ],
+    "convenios": ["Unimed", "Porto Seguro Sa\u00fade"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_6",
+        "data": "2024-05-12T00:00:00.000Z",
+        "medico_id": "med_456"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc472a822314bab610c0",
+    "nome": "Carlos Santos",
+    "cpf": "12345678902",
+    "data_nascimento": "1995-09-14T00:00:00.000Z",
+    "sexo": "M",
+    "endereco": {
+      "rua": "Rua Brasil",
+      "numero": 987,
+      "bairro": "Centro",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "carlos.santos@gmail.com" },
+      { "tipo": "telefone", "valor": "(51) 91234-5678" }
+    ],
+    "convenios": ["Interm\u00e9dica"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_7",
+        "data": "2024-08-30T00:00:00.000Z",
+        "medico_id": "med_123"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc562a822314bab610c1",
+    "nome": "Fernanda Almeida",
+    "cpf": "12345678903",
+    "data_nascimento": "1980-12-05T00:00:00.000Z",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Rua da Praia",
+      "numero": 300,
+      "bairro": "Centro",
+      "cidade": "Florian\u00f3polis",
+      "estado": "SC",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "fernanda.almeida@gmail.com" },
+      { "tipo": "telefone", "valor": "(48) 91234-5678" }
+    ],
+    "convenios": ["SulAm\u00e9rica Sa\u00fade"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_8",
+        "data": "2024-06-10T00:00:00.000Z",
+        "medico_id": "med_789"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc692a822314bab610c2",
+    "nome": "Pedro Martins",
+    "cpf": "12345678904",
+    "data_nascimento": "1993-01-25T00:00:00.000Z",
+    "sexo": "M",
+    "endereco": {
+      "rua": "Rua do Com\u00e9rcio",
+      "numero": 123,
+      "bairro": "Vila Nova",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "pedro.martins@gmail.com" },
+      { "tipo": "telefone", "valor": "(31) 91234-5678" }
+    ],
+    "convenios": ["Golden Cross"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_9",
+        "data": "2024-08-10T00:00:00.000Z",
+        "medico_id": "med_456"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc7b2a822314bab610c3",
+    "nome": "Beatriz Rocha",
+    "cpf": "12345678905",
+    "data_nascimento": "1975-04-18T00:00:00.000Z",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Rua das Palmeiras",
+      "numero": 78,
+      "bairro": "Jardim",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "beatriz.rocha@gmail.com" },
+      { "tipo": "telefone", "valor": "(71) 91234-5678" }
+    ],
+    "convenios": ["Amil"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_10",
+        "data": "2024-04-22T00:00:00.000Z",
+        "medico_id": "med_123"
+      }
+    ]
+  },
+  {
+    "_id": "6726bc9d2a822314bab610c4",
+    "nome": "Sofia Lima",
+    "cpf": "12345678907",
+    "data_nascimento": "1997-02-14T00:00:00.000Z",
+    "sexo": "F",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "numero": 234,
+      "bairro": "Centro",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "sofia.lima@gmail.com" },
+      { "tipo": "telefone", "valor": "(85) 91234-5678" }
+    ],
+    "convenios": ["Porto Seguro Sa\u00fade"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_12",
+        "data": "2024-06-18T00:00:00.000Z",
+        "medico_id": "med_456"
+      }
+    ]
+  },
+  {
+    "_id": "6726bcb72a822314bab610c6",
+    "nome": "Gabriel Costa",
+    "cpf": "12345678906",
+    "data_nascimento": "1988-07-12T00:00:00.000Z",
+    "sexo": "M",
+    "endereco": {
+      "rua": "Avenida Central",
+      "numero": 245,
+      "bairro": "Centro",
+      "cidade": "Recife",
+      "estado": "PE",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "gabriel.costa@gmail.com" },
+      { "tipo": "telefone", "valor": "(81) 91234-5678" }
+    ],
+    "convenios": ["Unimed"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_11",
+        "data": "2024-07-15T00:00:00.000Z",
+        "medico_id": "med_789"
+      }
+    ]
+  },
+  {
+    "_id": "6726d4e2848acca2a549c6aa",
+    "nome": "Lucas Moura",
+    "cpf": "12345678908",
+    "data_nascimento": "1986-05-20T00:00:00.000Z",
+    "sexo": "M",
+    "endereco": {
+      "rua": "Rua Verde",
+      "numero": 543,
+      "bairro": "Caminho das \u00c1rvores",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "pais": "Brasil"
+    },
+    "contatos": [
+      { "tipo": "email", "valor": "lucas.moura@gmail.com" },
+      { "tipo": "telefone", "valor": "(71) 92345-6789" }
+    ],
+    "convenios": ["Cassi"],
+    "historico_consultas": [
+      {
+        "consulta_id": "consult_id_13",
+        "data": "2024-05-22T00:00:00.000Z",
+        "medico_id": "med_123"
+      }
+    ]
+  }
+]

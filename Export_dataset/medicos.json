@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "6726ac30bbd55df79fc7677f",
+    "nome": "Dra. Ana Souza",
+    "crm": "CRM-SP-98765",
+    "especialidades": ["Cardiologia", "Cl\u00ednica Geral"],
+    "postossaude": ["6726ad1ebbd55df79fc76794", "6726ad2dbbd55df79fc76795"],
+    "contatos": [
+      { "tipo": "email", "valor": "ana.souza@hospital.com" },
+      { "tipo": "telefone", "valor": "(11) 99876-5432" }
+    ],
+    "endereco": {
+      "rua": "Rua S\u00e3o Paulo",
+      "numero": 200,
+      "bairro": "Jardins",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "horarios_atendimento": [
+      { "dia": "segunda-feira", "horario": "08:00 - 12:00" },
+      { "dia": "quarta-feira", "horario": "13:00 - 17:00" }
+    ],
+    "status": "Ativo"
+  },
+  {
+    "_id": "6726ac4dbbd55df79fc76780",
+    "nome": "Dr. Mario Rodrigues",
+    "crm": "CRM-SP-98067",
+    "especialidades": ["Neurologista", "Cl\u00ednica Geral"],
+    "postossaude": ["6726ad1ebbd55df79fc76794", "6726ad2dbbd55df79fc76795"],
+    "contatos": [
+      { "tipo": "email", "valor": "mario.rodrigues@hospital.com" },
+      { "tipo": "telefone", "valor": "(11) 94325-1901" }
+    ],
+    "endereco": {
+      "rua": "Av paulista",
+      "numero": 2222,
+      "bairro": "Jardim Paulista",
+      "cidade": "S\u00e3o Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "horarios_atendimento": [
+      { "dia": "quarta-feira", "horario": "08:00 - 12:00" },
+      { "dia": "quinta-feira", "horario": "10:00 - 20:00" }
+    ],
+    "status": "Ativo"
+  }
+]

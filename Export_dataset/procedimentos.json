@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "6726ad63bbd55df79fc7679b",
+    "descricao": "Ecocardiograma",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "medico_id": "6726ac30bbd55df79fc7677f",
+    "data": "2024-10-30",
+    "local_realizacao": "Laboratorio Lavosier",
+    "resultado": "Sem altera\u00e7\u00f5es significativas",
+    "observacoes": "Nenhuma observa\u00e7\u00e3o adicional",
+    "status": "Conclu\u00eddo"
+  },
+  {
+    "_id": "6726ad70bbd55df79fc7679c",
+    "descricao": "Eletrocardiograma",
+    "paciente_id": "6726abcdbbd55df79fc7677b",
+    "medico_id": "6726ac30bbd55df79fc7677f",
+    "data": "2024-10-30",
+    "local_realizacao": "H.Core",
+    "resultado": "Sem altera\u00e7\u00f5es significativas",
+    "observacoes": "Agendar retorno com especialista",
+    "status": "Conclu\u00eddo"
+  },
+  {
+    "_id": "6726ad7ebbd55df79fc7679d",
+    "descricao": "Raio-X de t\u00f3rax",
+    "paciente_id": "6726abf9bbd55df79fc7677c",
+    "medico_id": "6726ac4dbbd55df79fc76780",
+    "data": "2024-11-12",
+    "local_realizacao": "Laboratorio Fleury",
+    "resultado": "Raio-X Normal",
+    "observacoes": "Nenhuma observa\u00e7\u00e3o adicional",
+    "status": "Conclu\u00eddo"
+  }
+]
